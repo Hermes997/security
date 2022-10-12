@@ -26,6 +26,11 @@ public class SecurityController {
 		return "/home";
 	}
 	
+	@GetMapping("/main")
+	public String main() {
+		return "/main";
+	}
+	
 	@GetMapping("/joinform")
 	public String joinForm() {
 		return "/joinForm";
